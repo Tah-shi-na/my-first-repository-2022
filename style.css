@@ -1,0 +1,86 @@
+body{
+    font-family: 'Satisfy', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+    color: black;
+}
+.purple-color{
+    color: purple;
+}
+section{
+    display: flex;
+    margin-bottom: 80px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(purple,pink);
+    padding: 2px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+
+.border-line{
+    border-left: 5px solid red;
+    padding-left: 15px;
+}
+.middle-banner{
+    background-image: url(images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.mission{
+    text-align: center;
+}
+.green-color{
+    color: green;
+}
+footer p, h2 {
+    text-align: center;
+}
+.mission-container{
+    display: flex;
+    margin-bottom: 80px;
+}
+.mission-items{
+    width: 30%;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-left: 2%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px grey;
+}
+.mission-items img{
+    width: 35%;
+    border-radius: 25px;
+}
+#mission-1{
+    background-color: pink;
+}
+#mission-2{
+    background-color: burlywood;
+}
+#mission-3{
+    background-color: salmon;
+}
+.last-banner{
+    background-color: pink;
+}
+.footer-design{
+    background-color: black;
+}
+.red{
+    color: red;
+}
+.white{
+    color: white;
+}
